@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #0F4C75;
+}
+
+p, li{
+    font-family: 'Roboto',sans-serif;
+    color: #1B262C;
+}
+
+img{
+    user-select: none; 
+    -webkit-user-drag: none;
+}
+
+.wholeDoc{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 100vh;
+}
+
+.sideBar{
+    background-color: #3282B8;
+    padding: 5px;
+}
+
+.myFace{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    height: 14rem;
+}
+
+.bsIT{
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 1rem 0px 1.6rem 0px;
+}
+
+.aboutTitle{
+    font-size: 1.86rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+    text-align: center;
+}
+
+.aboutInfo{
+    display: grid;
+    place-content: center;
+    font-size: 1.49rem;
+    font-weight: 400;
+}
+
+.aboutInfo img{
+    border-radius: 100rem;
+    height: 1.7rem;
+}
+
+.aboutInfo p{
+    margin: 0.2rem;
+}
+
+.wholeBar{
+    padding-left: 2rem;
+    background-color: #BBE1FA;
+}
+
+.nameTitle{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 7rem 0px 6rem 0px;
+}
+
+.aboutTitleWhole{
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.profileInfo{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.schoolName, .collegeProject{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+}
+
+.schoolDate{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 0.6rem;
+}
+
+.schoolDesc{
+    font-size: 1.35rem;
+    font-weight: 400;
+}
+
+.collegespacing{
+    margin-top: 2.3rem;
+}
+
+.cPDesc{
+    margin-bottom: 1.59rem;
+    font-size: 1.35rem;
+}
+
+/*Smaller Screen*/
+@media (max-width: 1300px) {
+    .myFace{
+        height: 8rem;
+    }
+    .bsIT{
+        font-size: 1.32rem;
+    }
+    .aboutTitle{
+        font-size: 1rem;
+    }
+    .aboutInfo{
+        font-size: 0.8rem;
+        margin-right: 1rem;
+    }
+    .aboutInfo img{
+        height: 1.2rem;
+    }
+    /*Rest*/
+    .wholeBar{
+        padding-left: 1.5rem;
+    }
+    .nameTitle{
+        font-size: 2.3rem;
+        margin: 4.75rem 0px 3.8rem 0px;
+    }
+    .aboutTitleWhole{
+        font-size: 1.2rem;
+        margin-top: 1.8rem;
+    }
+    .profileInfo{
+        font-size: 1rem;
+    }
+    .schoolName, .collegeProject{
+        font-size: 1rem;
+    }
+    .schoolDate{
+        font-size: 0.8rem;
+        margin-bottom: 0.45rem;
+    }
+    .schoolDesc{
+        font-size: 0.9rem;
+    }
+    .collegespacing{
+        margin-top: 1rem;
+    }
+    .cPDesc{
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/*Tablet*/
+@media (max-width:750px) {
+    .myFace{
+        height: 6.5rem;
+    }
+    .bsIT{
+        font-size: 0.85rem;
+    }
+    .aboutTitle{
+        font-size: 0.75rem;
+    }
+    .aboutInfo{
+        font-size: 0.6rem;
+        margin-right: 1.3rem;
+    }
+    .aboutInfo img{
+        height: 0.8rem;
+    }
+    /*Rest*/
+    .wholeBar{
+        padding-left: 0.9rem;
+    }
+    .nameTitle{
+        font-size: 1.6rem;
+        margin: 4.8rem 0px 3.1rem 0px;
+    }
+    .aboutTitleWhole{
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+    .profileInfo{
+        font-size: 0.75rem;
+    }
+    .schoolName, .collegeProject{
+        font-size: 0.75rem;
+    }
+    .schoolDate{
+        font-size: 0.7rem;
+    }
+    .schoolDesc{
+        font-size: 0.73rem;
+    }
+    .cPDesc{
+        font-size: 0.79rem;
+    }
+}
+
+/*Phone*/
+@media (max-width:500px) {
+    .wholeDoc{
+        grid-template-columns: 40% 60%;
+    }
+    .myFace{
+        height: 5rem;
+    }
+    .bsIT{
+        font-size: 0.76rem;
+    }
+    .aboutTitle{
+        font-size: 0.7rem;
+    }
+    .aboutInfo{
+        font-size: 0.5rem;
+        margin-right: 1rem;
+    }
+    .aboutInfo img{
+        height: 0.7rem;
+    }
+    /*Rest*/
+    .wholeBar{
+        padding-left: 0.8rem;
+    }
+    .nameTitle{
+        font-size: 1.1rem;
+        margin: 4rem 0px 3rem 0px;
+    }
+    .aboutTitleWhole{
+        font-size: 0.7rem;
+        margin: 1rem 0px 0.25rem 0px;
+    }
+    .profileInfo{
+        font-size: 0.58rem;
+    }
+    .schoolName, .collegeProject{
+        font-size: 0.6rem;
+    }
+    .schoolDate{
+        font-size: 0.55rem;
+        margin-bottom: 0.3rem;
+    }
+    .schoolDesc{
+        font-size: 0.5rem;
+    }
+    .collegespacing{
+        margin-top: 1rem;
+    }
+    .cPDesc{
+        font-size: 0.5rem;
+        margin-bottom: 0.8rem;
+    }
+    
+}
